@@ -1,17 +1,25 @@
-div.gallery {
+body{
+    background-color: skyblue;
+}
+
+h1{
+    align-content: center;
+}
+
+ .gallery {
     border: 1px solid #ccc;
   }
   
-  div.gallery:hover {
-    border: 1px solid #777;
+  .gallery:hover {
+    border: 1px solid black;
   }
   
-  div.gallery img {
+  .gallery img {
     width: 100%;
     height: auto;
   }
   
-  div.desc {
+  .desc {
     padding: 15px;
     text-align: center;
   }
@@ -20,10 +28,12 @@ div.gallery {
     box-sizing: border-box;
   }
   
+
+  
   .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 50%;
   }
   
   @media only screen and (max-width: 700px) {
@@ -40,7 +50,6 @@ div.gallery {
     }
   }
   
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+ 
+
+  
