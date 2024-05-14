@@ -1,3 +1,5 @@
+
+
 body{
     background-color: skyblue;
 }
@@ -8,6 +10,7 @@ h1{
 
  .gallery {
     border: 1px solid #ccc;
+    
   }
   
   .gallery:hover {
@@ -30,10 +33,12 @@ h1{
   
 
   
-  .responsive {
+  .container {
     padding: 0 6px;
     float: left;
-    width: 50%;
+    width: 25%%;
+    display:flex;
+    flex-wrap: wrap;
   }
   
   @media only screen and (max-width: 700px) {
@@ -50,6 +55,34 @@ h1{
     }
   }
   
- 
+
 
   
+  box-sizing: border-box;
+}
+
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+
+
